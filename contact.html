@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Get in touch with Ford Motor Company. Find contact information for customer support, media inquiries, and more. We're here to help!">
+  <meta name="keywords"
+    content="Contact Ford, Ford Customer Service, Ford Support, Ford Motor Company Contact, Automotive Support">
+  <meta name="author" content="Ford Motor Company">
+  <title>Contact Us - Ford Motor Company</title>
+  <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="assets/styles/style.css">
+  <script src="assets/scripts/menu.js" defer></script>
+  <script src="assets/scripts/contact-form.js" defer></script>
+
+</head>
+
+<body>
+  <!-- Header section containing the navigation menu -->
+  <header>
+    <nav>
+      <img src="assets/images/logo.png" alt="Ford Motor Company Logo" class="nav-logo">
+      <!-- Company logo for branding -->
+      <div class="hamburger">&#9776;</div> <!-- Mobile menu icon (hamburger style) -->
+      <ul class="nav-menu">
+        <li><a href="index.html">Homepage</a></li>
+        <li><a href="about.html">About the Product</a></li>
+        <li><a href="products.html">Product Promotions</a></li>
+        <li><a href="contact.html" class="active">Contact Info</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main content area of the webpage -->
+  <main>
+    <!-- Contact form section -->
+    <section class="contact-section">
+      <h2>Contact Us</h2>
+      <p>If you have any questions or need further information, please reach out to us using the form below.</p>
+      <form class="contact-form">
+        <div class="form-group">
+          <label for="contact-name" class="form-label">Name:</label>
+          <input type="text" id="contact-name" class="form-input" name="name" required>
+        </div>
+
+        <div class="form-group">
+          <label for="contact-email" class="form-label">Email:</label>
+          <input type="email" id="contact-email" class="form-input" name="email" required>
+        </div>
+
+        <div class="form-group">
+          <label for="contact-message" class="form-label">Message:</label>
+          <textarea id="contact-message" class="form-textarea" name="message" required></textarea>
+        </div>
+
+        <button type="submit" class="contact-button">Send Message</button>
+        <p class="confirmation-message"></p>
+      </form>
+    </section>
+  </main>
+
+  <!-- Footer containing additional navigation and company logo -->
+  <footer>
+    <img src="assets/images/logo.png" alt="Ford Motor Company Logo" class="footer-logo">
+    <!-- Footer logo for brand consistency -->
+    <ul class="footer-nav">
+      <li><a href="index.html">Homepage</a></li>
+      <li><a href="about.html">About the Product</a></li>
+      <li><a href="products.html">Product Promotions</a></li>
+      <li><a href="contact.html" class="active">Contact Info</a></li>
+    </ul>
+  </footer>
+</body>
+
+</html>
